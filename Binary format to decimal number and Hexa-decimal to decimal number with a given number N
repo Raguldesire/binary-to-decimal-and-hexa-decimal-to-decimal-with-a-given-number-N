@@ -1,0 +1,9 @@
+#Binary format to decimal number
+n=input()                                 #getting input as string
+decimal=int(n,2)                          #convert into decimal by using int and base 2 indicates the string represent a binary
+print(decimal)
+
+#Hexa-decimal to decimal number
+n=input()                                 #getting input as string
+decimal=int(n,16)                         #convert into decimal by using int and base 16 indicates for hexa-decimal
+print(decimal)
